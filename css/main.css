@@ -1,5 +1,5 @@
 html {
-  fornt-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .btn {
@@ -7,11 +7,20 @@ html {
   border-color: limegreen;
 }
 
-btn-ghdst {
+.btn-ghdst {
   background-color: transparent;
 }
 
 .btn-light {
   background-color: lightgreen;
   border-color: lightgreen;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
 }
